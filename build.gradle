@@ -22,7 +22,7 @@ repositories {
 }
 
 java {
-    group = 'com.poja.poja_sary_std22108'
+    group = 'hei.school.sarisary'
     sourceCompatibility = '17'
     targetCompatibility = '17'
 }
@@ -52,7 +52,7 @@ jacocoTestCoverageVerification {
         rule {
             limit {
                 counter = "LINE"
-                minimum = 0.5
+                minimum = 0.8
             }
         }
     }
